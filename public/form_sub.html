@@ -1,0 +1,31 @@
+<main>
+    <div id="left-pane" style="background-image: url(https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png);">
+        <div class="image">
+            <form class="formm">
+                <h2>Code & Win: Submission</h2>
+                <div class="form-group offset-m4 " style="font-weight: bold ">
+                    <label for="name">Student's Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
+                </div>
+                <div class="form-group" style="font-weight: bold ">
+                    <label for="id">Roll Number</label>
+                    <input type="number" min="1" class="form-control" id="id" placeholder="Roll number" required>
+                </div>
+                <div class="form-group col-md-4" style="padding-left: 0px;">
+                    <label for="inputState"><b>Department</b></label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Computer Science & Engineering</option>
+                        <option>Electrical Engineering</option>
+                        <option>Mechanical Engineering</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1"><b>Upload Files :</b></label>
+                    <input type="file" multiple class="form-control-file" id="exampleFormControlFile1">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</main>

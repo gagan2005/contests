@@ -1,0 +1,1 @@
+Open it on local server dont open html directly.
